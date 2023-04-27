@@ -1,0 +1,8 @@
+{
+    "name": "Backend",
+    "dockerComposeFile": ["../../docker-compose.yml"],
+    "service": "profonanpe-backend",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/profonanpe-backend-src",
+    "forwardPorts": [4201]
+}

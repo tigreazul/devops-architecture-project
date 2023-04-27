@@ -1,0 +1,8 @@
+{
+    "name": "Api Gateway",
+    "dockerComposeFile": ["../../docker-compose.yml"],
+    "service": "profonanpe-api-gateway",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/profonanpe-api-gateway-src",
+    "forwardPorts": [4202]
+}
